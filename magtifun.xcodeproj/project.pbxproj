@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A99A1CBE1680ED2B004E6307 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = A99A1CBD1680ED2B004E6307 /* icon-57.png */; };
+		A99A1CC11680ED30004E6307 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = A99A1CC01680ED30004E6307 /* icon-114.png */; };
+		A99A1CC31680ED3B004E6307 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A99A1CC21680ED3B004E6307 /* icon-72.png */; };
+		A99A1CC51680ED3F004E6307 /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = A99A1CC41680ED3F004E6307 /* icon-144.png */; };
+		A9EA295A167F837C003C614C /* HTTPController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA2959167F837C003C614C /* HTTPController.m */; };
+		A9EA295E167F89E3003C614C /* NSData+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA295D167F89E3003C614C /* NSData+AESCrypt.m */; };
+		A9EA2961167F95C4003C614C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA295F167F95C4003C614C /* AddressBook.framework */; };
+		A9EA2962167F95C4003C614C /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA2960167F95C4003C614C /* AddressBookUI.framework */; };
+		A9F1185A167DC72C007254FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F11859167DC72C007254FC /* UIKit.framework */; };
+		A9F1185C167DC72C007254FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F1185B167DC72C007254FC /* Foundation.framework */; };
+		A9F1185E167DC72C007254FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F1185D167DC72C007254FC /* CoreGraphics.framework */; };
+		A9F11864167DC72C007254FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9F11862167DC72C007254FC /* InfoPlist.strings */; };
+		A9F11866167DC72C007254FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F11865167DC72C007254FC /* main.m */; };
+		A9F1186A167DC72C007254FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F11869167DC72C007254FC /* AppDelegate.m */; };
+		A9F1186C167DC72C007254FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F1186B167DC72C007254FC /* Default.png */; };
+		A9F1186E167DC72C007254FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F1186D167DC72C007254FC /* Default@2x.png */; };
+		A9F11870167DC72C007254FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F1186F167DC72C007254FC /* Default-568h@2x.png */; };
+		A9F11873167DC72C007254FC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F11871167DC72C007254FC /* MainStoryboard_iPhone.storyboard */; };
+		A9F11876167DC72C007254FC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F11874167DC72C007254FC /* MainStoryboard_iPad.storyboard */; };
+		A9F11879167DC72C007254FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F11878167DC72C007254FC /* ViewController.m */; };
+		A9F11880167DC91A007254FC /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F1187F167DC91A007254FC /* gear.png */; };
+		A9F11882167DCA1A007254FC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F11881167DCA1A007254FC /* iAd.framework */; };
+		A9F11896167DE49C007254FC /* PopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F11895167DE49C007254FC /* PopoverController.m */; };
+		A9F1189A167DE6A5007254FC /* UIPopoverController+iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F11899167DE6A5007254FC /* UIPopoverController+iPhone.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A99A1CBD1680ED2B004E6307 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		A99A1CC01680ED30004E6307 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
+		A99A1CC21680ED3B004E6307 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		A99A1CC41680ED3F004E6307 /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-144.png"; sourceTree = "<group>"; };
+		A9EA2958167F837C003C614C /* HTTPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPController.h; sourceTree = "<group>"; };
+		A9EA2959167F837C003C614C /* HTTPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPController.m; sourceTree = "<group>"; };
+		A9EA295C167F89E3003C614C /* NSData+AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AESCrypt.h"; sourceTree = "<group>"; };
+		A9EA295D167F89E3003C614C /* NSData+AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AESCrypt.m"; sourceTree = "<group>"; };
+		A9EA295F167F95C4003C614C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A9EA2960167F95C4003C614C /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		A9F11855167DC72C007254FC /* magtifun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magtifun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F11859167DC72C007254FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9F1185B167DC72C007254FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9F1185D167DC72C007254FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9F11861167DC72C007254FC /* magtifun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "magtifun-Info.plist"; sourceTree = "<group>"; };
+		A9F11863167DC72C007254FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9F11865167DC72C007254FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9F11867167DC72C007254FC /* magtifun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "magtifun-Prefix.pch"; sourceTree = "<group>"; };
+		A9F11868167DC72C007254FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9F11869167DC72C007254FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9F1186B167DC72C007254FC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A9F1186D167DC72C007254FC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A9F1186F167DC72C007254FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A9F11872167DC72C007254FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A9F11875167DC72C007254FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A9F11877167DC72C007254FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9F11878167DC72C007254FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9F1187F167DC91A007254FC /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		A9F11881167DCA1A007254FC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		A9F11894167DE49C007254FC /* PopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverController.h; sourceTree = "<group>"; };
+		A9F11895167DE49C007254FC /* PopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverController.m; sourceTree = "<group>"; };
+		A9F11898167DE6A5007254FC /* UIPopoverController+iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIPopoverController+iPhone.h"; path = "../UIPopoverController+iPhone.h"; sourceTree = "<group>"; };
+		A9F11899167DE6A5007254FC /* UIPopoverController+iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIPopoverController+iPhone.m"; path = "../UIPopoverController+iPhone.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9F11852167DC72B007254FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F1185A167DC72C007254FC /* UIKit.framework in Frameworks */,
+				A9F1185C167DC72C007254FC /* Foundation.framework in Frameworks */,
+				A9F1185E167DC72C007254FC /* CoreGraphics.framework in Frameworks */,
+				A9EA2961167F95C4003C614C /* AddressBook.framework in Frameworks */,
+				A9EA2962167F95C4003C614C /* AddressBookUI.framework in Frameworks */,
+				A9F11882167DCA1A007254FC /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9EA2963167FA61A003C614C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9F11871167DC72C007254FC /* MainStoryboard_iPhone.storyboard */,
+				A9F11874167DC72C007254FC /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A9EA2964167FA62B003C614C /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9F11898167DE6A5007254FC /* UIPopoverController+iPhone.h */,
+				A9F11899167DE6A5007254FC /* UIPopoverController+iPhone.m */,
+				A9EA2958167F837C003C614C /* HTTPController.h */,
+				A9EA2959167F837C003C614C /* HTTPController.m */,
+				A9EA295C167F89E3003C614C /* NSData+AESCrypt.h */,
+				A9EA295D167F89E3003C614C /* NSData+AESCrypt.m */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		A9EA2965167FA641003C614C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9F11894167DE49C007254FC /* PopoverController.h */,
+				A9F11895167DE49C007254FC /* PopoverController.m */,
+				A9F11877167DC72C007254FC /* ViewController.h */,
+				A9F11878167DC72C007254FC /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A9F1184A167DC72B007254FC = {
+			isa = PBXGroup;
+			children = (
+				A99A1CC41680ED3F004E6307 /* icon-144.png */,
+				A99A1CC21680ED3B004E6307 /* icon-72.png */,
+				A99A1CC01680ED30004E6307 /* icon-114.png */,
+				A99A1CBD1680ED2B004E6307 /* icon-57.png */,
+				A9F1185F167DC72C007254FC /* magtifun */,
+				A9F11858167DC72C007254FC /* Frameworks */,
+				A9F11856167DC72C007254FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9F11856167DC72C007254FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F11855167DC72C007254FC /* magtifun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9F11858167DC72C007254FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA295F167F95C4003C614C /* AddressBook.framework */,
+				A9EA2960167F95C4003C614C /* AddressBookUI.framework */,
+				A9F11881167DCA1A007254FC /* iAd.framework */,
+				A9F11859167DC72C007254FC /* UIKit.framework */,
+				A9F1185B167DC72C007254FC /* Foundation.framework */,
+				A9F1185D167DC72C007254FC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9F1185F167DC72C007254FC /* magtifun */ = {
+			isa = PBXGroup;
+			children = (
+				A9F11868167DC72C007254FC /* AppDelegate.h */,
+				A9F11869167DC72C007254FC /* AppDelegate.m */,
+				A9EA2965167FA641003C614C /* Controllers */,
+				A9EA2964167FA62B003C614C /* Helper Classes */,
+				A9EA2963167FA61A003C614C /* Views */,
+				A9F11860167DC72C007254FC /* Supporting Files */,
+			);
+			path = magtifun;
+			sourceTree = "<group>";
+		};
+		A9F11860167DC72C007254FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F1187F167DC91A007254FC /* gear.png */,
+				A9F11861167DC72C007254FC /* magtifun-Info.plist */,
+				A9F11862167DC72C007254FC /* InfoPlist.strings */,
+				A9F11865167DC72C007254FC /* main.m */,
+				A9F11867167DC72C007254FC /* magtifun-Prefix.pch */,
+				A9F1186B167DC72C007254FC /* Default.png */,
+				A9F1186D167DC72C007254FC /* Default@2x.png */,
+				A9F1186F167DC72C007254FC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F11854167DC72B007254FC /* magtifun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F1187C167DC72C007254FC /* Build configuration list for PBXNativeTarget "magtifun" */;
+			buildPhases = (
+				A9F11851167DC72B007254FC /* Sources */,
+				A9F11852167DC72B007254FC /* Frameworks */,
+				A9F11853167DC72B007254FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = magtifun;
+			productName = magtifun;
+			productReference = A9F11855167DC72C007254FC /* magtifun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9F1184C167DC72B007254FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sergo Beruashvili";
+			};
+			buildConfigurationList = A9F1184F167DC72B007254FC /* Build configuration list for PBXProject "magtifun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9F1184A167DC72B007254FC;
+			productRefGroup = A9F11856167DC72C007254FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9F11854167DC72B007254FC /* magtifun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9F11853167DC72B007254FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F11864167DC72C007254FC /* InfoPlist.strings in Resources */,
+				A9F1186C167DC72C007254FC /* Default.png in Resources */,
+				A9F1186E167DC72C007254FC /* Default@2x.png in Resources */,
+				A9F11870167DC72C007254FC /* Default-568h@2x.png in Resources */,
+				A9F11873167DC72C007254FC /* MainStoryboard_iPhone.storyboard in Resources */,
+				A9F11876167DC72C007254FC /* MainStoryboard_iPad.storyboard in Resources */,
+				A9F11880167DC91A007254FC /* gear.png in Resources */,
+				A99A1CBE1680ED2B004E6307 /* icon-57.png in Resources */,
+				A99A1CC11680ED30004E6307 /* icon-114.png in Resources */,
+				A99A1CC31680ED3B004E6307 /* icon-72.png in Resources */,
+				A99A1CC51680ED3F004E6307 /* icon-144.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F11851167DC72B007254FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F11866167DC72C007254FC /* main.m in Sources */,
+				A9F1186A167DC72C007254FC /* AppDelegate.m in Sources */,
+				A9F11879167DC72C007254FC /* ViewController.m in Sources */,
+				A9F11896167DE49C007254FC /* PopoverController.m in Sources */,
+				A9F1189A167DE6A5007254FC /* UIPopoverController+iPhone.m in Sources */,
+				A9EA295A167F837C003C614C /* HTTPController.m in Sources */,
+				A9EA295E167F89E3003C614C /* NSData+AESCrypt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9F11862167DC72C007254FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F11863167DC72C007254FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9F11871167DC72C007254FC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F11872167DC72C007254FC /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A9F11874167DC72C007254FC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F11875167DC72C007254FC /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9F1187A167DC72C007254FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sergo Beruashvili";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sergo Beruashvili";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "DEEBEE26-451F-47C5-8387-B5698126BC07";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DEEBEE26-451F-47C5-8387-B5698126BC07";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F1187B167DC72C007254FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sergo Beruashvili";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sergo Beruashvili";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "DEEBEE26-451F-47C5-8387-B5698126BC07";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DEEBEE26-451F-47C5-8387-B5698126BC07";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9F1187D167DC72C007254FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magtifun/magtifun-Prefix.pch";
+				INFOPLIST_FILE = "magtifun/magtifun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9F1187E167DC72C007254FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magtifun/magtifun-Prefix.pch";
+				INFOPLIST_FILE = "magtifun/magtifun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9F1184F167DC72B007254FC /* Build configuration list for PBXProject "magtifun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F1187A167DC72C007254FC /* Debug */,
+				A9F1187B167DC72C007254FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F1187C167DC72C007254FC /* Build configuration list for PBXNativeTarget "magtifun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F1187D167DC72C007254FC /* Debug */,
+				A9F1187E167DC72C007254FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9F1184C167DC72B007254FC /* Project object */;
+}
