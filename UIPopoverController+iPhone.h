@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIPopoverController (iPhone)
+// override for iPhone , otherwise popover wont show up
 +(BOOL)_popoversDisabled;
 @end

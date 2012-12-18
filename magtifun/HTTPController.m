@@ -15,7 +15,7 @@
 
 -(void)login:(NSString *)username andPassword:(NSString *)password {
     
-    
+    // building request data
     NSString *up = [[NSString alloc] initWithFormat:@"user=%@&password=%@&act=1&remember=on" , username , password ];
     
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://www.magtifun.ge/index.php?page=11&lang=ge"] cachePolicy:NSURLCacheStorageNotAllowed timeoutInterval:10];
