@@ -14,6 +14,15 @@
 
 -(void)viewDidLoad {
     [super viewDidLoad];
+}
+
+-(void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.loadingIndicator stopAnimating];
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     
     NSString *user = [[NSUserDefaults standardUserDefaults] objectForKey:@"username"];
     if(user) {
@@ -22,11 +31,6 @@
         NSData *decrypted = [p AES256DecryptWithKey:[AppDelegate getGlobalKey]];
         [self.textFieldPassword setText:[[NSString alloc] initWithData:decrypted encoding:NSUTF8StringEncoding]];
     }
-}
-
--(void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-    [self.loadingIndicator stopAnimating];
 }
 
 - (IBAction)login:(id)sender {
